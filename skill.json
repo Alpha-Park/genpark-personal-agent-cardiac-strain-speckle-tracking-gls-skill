@@ -1,0 +1,39 @@
+{
+  "name": "genpark-personal-agent-cardiac-strain-speckle-tracking-gls-skill",
+  "version": "1.0.0",
+  "description": "Echocardiography 2D speckle-tracking Global Longitudinal Strain (GLS) myocardial deformation index and subclinical LV dysfunction sentinel.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "assess_cardiac_gls_strain",
+      "description": "Echocardiography 2D speckle-tracking Global Longitudinal Strain (GLS) myocardial deformation index and subclinical LV dysfunction sentinel.",
+      "sample_input": {
+        "segmental_strains_percent": [
+          -21.0,
+          -20.5,
+          -19.8,
+          -20.2,
+          -21.4,
+          -20.0,
+          -19.5,
+          -20.1,
+          -19.0,
+          -19.8,
+          -20.5,
+          -20.2,
+          -22.0,
+          -23.1,
+          -22.5,
+          -21.8,
+          -22.4
+        ],
+        "lvef_percent": 62.0,
+        "baseline_gls_percent": -21.5
+      }
+    }
+  ]
+}
